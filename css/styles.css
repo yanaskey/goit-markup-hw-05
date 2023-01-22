@@ -162,6 +162,10 @@ img {
   background-color: var(--color-move-change);
 }
 
+.nav-item.current.plus::after {
+  bottom: -1px;
+}
+
 /* Hero */
 
 .hero {
@@ -451,7 +455,9 @@ img {
   border-radius: 50%;
   background-color: var(--footer-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
 
+.modal-button:hover {
   cursor: pointer;
 }
 
